@@ -34,6 +34,14 @@ input {
   text-decoration: none;
   cursor: pointer;
 }
+.site-header a{
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.button--add{
+  font-weight: bold;
+  padding: 15px;
+}
 
 /* Site title and top navigation */
 .site-header {
@@ -77,6 +85,15 @@ input {
   color: rgba(0, 0, 0, 0.6);
   text-align: right;
 }
+
+.review--positive{
+  border-left: 4px solid #2bd184;
+}
+
+.review--negative{
+  border-left: 4px solid #d1542b;
+}
+
 
 /* Input area to add a new review */
 .add-review {
