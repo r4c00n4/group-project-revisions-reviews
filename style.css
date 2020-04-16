@@ -34,7 +34,7 @@ input {
   text-decoration: none;
   cursor: pointer;
 }
-.site-header a{
+.site-header .button{
   border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
